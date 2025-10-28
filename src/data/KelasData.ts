@@ -1,0 +1,62 @@
+export const kelasData = [
+  {
+    id: 1,
+    judul: "Bahasa Jawa untuk Pemula",
+    level: "Pemula",
+    durasi: "4 minggu",
+    siswa: 2450,
+    rating: 4.8,
+    modul: 12,
+    gambar: "/assets/jawa.jpg",
+    warna: "from-amber-500 to-orange-200",
+    deskripsi:
+      "Pelajari dasar-dasar Bahasa Jawa seperti sapaan, kalimat sederhana, dan percakapan sehari-hari.",
+    materi: [
+      "Pengenalan Bahasa Jawa",
+      "Unggah-ungguh dan Tata Krama",
+      "Kalimat Dasar dan Sapaan",
+      "Percakapan Sehari-hari",
+      "Latihan dan Kuis",
+    ],
+  },
+  {
+    id: 2,
+    judul: "Percakapan Bahasa Sunda",
+    level: "Menengah",
+    durasi: "3 minggu",
+    siswa: 1890,
+    rating: 4.9,
+    modul: 10,
+    gambar: "/assets/sunda.jpg",
+    warna: "from-blue-500 to-cyan-200",
+    deskripsi:
+      "Kelas ini membahas percakapan sehari-hari dalam Bahasa Sunda dengan fokus pada konteks sosial dan budaya Sunda modern.",
+    materi: [
+      "Pengenalan Bahasa Sunda",
+      "Ekspresi Umum dan Salam",
+      "Percakapan di Rumah dan Sekolah",
+      "Dialog Sosial dan Budaya",
+      "Latihan Praktik",
+    ],
+  },
+  {
+    id: 3,
+    judul: "Bahasa Minang Sehari-hari",
+    level: "Pemula",
+    durasi: "3 minggu",
+    siswa: 1560,
+    rating: 4.7,
+    modul: 9,
+    gambar: "/assets/minang.jpeg",
+    warna: "from-green-500 to-emerald-200",
+    deskripsi:
+      "Belajar Bahasa Minang dasar untuk memahami percakapan dan ungkapan umum yang digunakan dalam kehidupan sehari-hari.",
+    materi: [
+      "Pengenalan Bahasa Minang",
+      "Sapaan dan Ekspresi",
+      "Kalimat Sehari-hari",
+      "Budaya Minangkabau",
+      "Kuis Akhir",
+    ],
+  },
+];
