@@ -1,4 +1,4 @@
-import { Search, Volume2, BookMarked, SearchX } from 'lucide-react';
+import { Search, BookMarked, SearchX } from 'lucide-react';
 import { useState, useEffect } from 'react';
 
 const kataKamus = [
@@ -153,9 +153,6 @@ export default function KamusSection() {
                     </span>
                     <h3 className="text-xl font-bold text-gray-900">{kata.kata}</h3>
                   </div>
-                  <button className="p-2 bg-amber-100 hover:bg-amber-200 rounded-full transition-all transform hover:scale-110 hover:rotate-12 active:scale-95">
-                    <Volume2 className="w-5 h-5 text-amber-600" />
-                  </button>
                 </div>
 
                 <p className="text-gray-700 font-medium mb-3">{kata.arti}</p>
